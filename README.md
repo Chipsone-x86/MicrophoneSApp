@@ -17,7 +17,7 @@ C++ project
   - Отправьте изменения в ваш форк: git push origin feature/your-feature-name
   - Создайте Pull Request
 - [Issues]
-  - Если вы нашли баг или хотите предложить улучшение, создайте Issue [https://github.com/username/MicrophoneSApp/issues](https://github.com/Chipsone-x86/MicrophoneSApp/issues)
+  - Если вы нашли баг или хотите предложить улучшение, создайте Issue [https://github.com/Chipsone-x86/MicrophoneSApp/issues](https://github.com/Chipsone-x86/MicrophoneSApp/issues)
 
 ## Setup
 Инструкции по установке проекта:
