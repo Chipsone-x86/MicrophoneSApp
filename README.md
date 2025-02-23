@@ -5,7 +5,11 @@ C++ project
 
 ## Table of contents
 - [Установка]
-  - Возьмите и запустите код
+  - **x86**
+  - Configuration Properties -> Linker -> System : "Windows (/SUBSYSTEM:WINDOWS )"
+  - Configuration Properties -> Linker -> Input : ComCtl32.lib; Ole32.lib
+  - Configuration Properties -> C/C++ -> Precompiled Headers : Not Using Precompiled Headers
+  - запустите код
 - [Использование]
   - управляйте своим микрофоном
 - [Лицензия]
@@ -25,7 +29,3 @@ C++ project
 git clone https://github.com/Chipsone-x86/MicrophoneSApp.git
 cd MicrophoneSApp
 
-**x86**
-Configuration Properties -> Linker -> System : "Windows (/SUBSYSTEM:WINDOWS )"
-Configuration Properties -> Linker -> Input : ComCtl32.lib; Ole32.lib
-Configuration Properties -> C/C++ -> Precompiled Headers : Not Using Precompiled Headers
