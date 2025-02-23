@@ -24,3 +24,8 @@ C++ project
 ```bash
 git clone https://github.com/Chipsone-x86/MicrophoneSApp.git
 cd MicrophoneSApp
+
+**x86**
+Configuration Properties -> Linker -> System : "Windows (/SUBSYSTEM:WINDOWS )"
+Configuration Properties -> Linker -> Input : ComCtl32.lib; Ole32.lib
+Configuration Properties -> C/C++ -> Precompiled Headers : Not Using Precompiled Headers
